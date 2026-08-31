@@ -1,0 +1,707 @@
+{
+  "summary": {
+    "total_resumes": 16,
+    "successfully_parsed": 15,
+    "eligible": 10,
+    "rejected": 5,
+    "failed": 1
+  },
+  "candidates": [
+    {
+      "candidate_name": "Alicia Moreno",
+      "eligible": true,
+      "total_score": 81,
+      "score_breakdown": {
+        "ai_project_depth": {
+          "points": 36,
+          "max_points": 40,
+          "reasoning": "AI/LLM or agentic keywords found in resume text. | Strong AI system signals such as RAG, retrieval, orchestration, embeddings, or agent workflows were found. | Project descriptions suggest workflow logic and product-level orchestration beyond a prompt wrapper."
+        },
+        "python_backend_engineering": {
+          "points": 30,
+          "max_points": 30,
+          "reasoning": "Python is present across skills or projects. | Backend framework evidence supports Python engineering depth. | Data or asynchronous backend infrastructure is mentioned. | Workflow/state/evaluation-heavy backend logic indicates deeper software engineering beyond simple API usage."
+        },
+        "cloud_fullstack": {
+          "points": 10,
+          "max_points": 15,
+          "reasoning": "Cloud or deployment signals are present."
+        },
+        "github_activity": {
+          "points": 0,
+          "max_points": 10,
+          "reasoning": "GitHub profile missing or private."
+        },
+        "engineering_depth": {
+          "points": 5,
+          "max_points": 5,
+          "reasoning": "Testing evidence is present. | Architecture or workflow orchestration signals are present. | Operational and reliability signals appear in the resume. | The project combines agentic workflow signals with backend infrastructure and production-grade components."
+        }
+      },
+      "matched_skills": [
+        "agent",
+        "caching",
+        "deployment",
+        "docker",
+        "evals",
+        "evaluation",
+        "fastapi",
+        "gcp",
+        "langgraph",
+        "monitoring",
+        "multi-agent",
+        "observability",
+        "postgresql",
+        "pytest",
+        "python",
+        "queue",
+        "rag",
+        "redis",
+        "retrieval",
+        "retry",
+        "tool-calling"
+      ],
+      "project_summary": "Built a multi-agent LangGraph customer support platform that orchestrated retrieval, tool-calling, and approval Developed a FastAPI backend for a document intelligence assistant that processed support emails, extracted Created a benchmarking suite for retrieval quality with automated evals against customer queries, measuring Senior AI Engineer, Northlake Labs \u2014 designed agentic workflows for internal automation and enterprise search. Software Engineer, DataForge \u2014 built Python APIs, async data p",
+      "github_summary": "GitHub profile missing or private.",
+      "strengths": [
+        "Strong AI/project depth with meaningful workflow or retrieval signals.",
+        "Solid Python and backend engineering evidence."
+      ],
+      "concerns": [
+        "GitHub signal is weak or unavailable."
+      ],
+      "rank": 3,
+      "rejection_reasons": []
+    },
+    {
+      "candidate_name": "Daniel Patel",
+      "eligible": true,
+      "total_score": 84,
+      "score_breakdown": {
+        "ai_project_depth": {
+          "points": 40,
+          "max_points": 40,
+          "reasoning": "AI/LLM or agentic keywords found in resume text. | Strong AI system signals such as RAG, retrieval, orchestration, embeddings, or agent workflows were found. | Project descriptions suggest workflow logic and product-level orchestration beyond a prompt wrapper. | The project demonstrates memory, state, evaluation, or retrieval patterns that indicate deeper AI system design."
+        },
+        "python_backend_engineering": {
+          "points": 30,
+          "max_points": 30,
+          "reasoning": "Python is present across skills or projects. | Backend framework evidence supports Python engineering depth. | Data or asynchronous backend infrastructure is mentioned. | Workflow/state/evaluation-heavy backend logic indicates deeper software engineering beyond simple API usage."
+        },
+        "cloud_fullstack": {
+          "points": 10,
+          "max_points": 15,
+          "reasoning": "Cloud or deployment signals are present."
+        },
+        "github_activity": {
+          "points": 0,
+          "max_points": 10,
+          "reasoning": "GitHub profile missing or private."
+        },
+        "engineering_depth": {
+          "points": 4,
+          "max_points": 5,
+          "reasoning": "Architecture or workflow orchestration signals are present. | Operational and reliability signals appear in the resume. | The project combines agentic workflow signals with backend infrastructure and production-grade components."
+        }
+      },
+      "matched_skills": [
+        "asyncio",
+        "caching",
+        "docker",
+        "evaluation",
+        "fastapi",
+        "gcp",
+        "google cloud",
+        "langchain",
+        "logging",
+        "openai",
+        "postgresql",
+        "python",
+        "redis",
+        "retrieval",
+        "sqlalchemy",
+        "tool calling"
+      ],
+      "project_summary": "Built a retrieval-augmented knowledge assistant for internal engineering documentation using LangChain, FAISS, and The app chunked documentation, embedded it with OpenAI models, and implemented Engineered a support automation system with workflow state tracking, policy checks, and tool calling against internal Implemented evaluation scripts for retrieval quality and response grounding, comparing semantic and keyword AI Engineer, SparkPilot \u2014 built internal search and workflow systems for product",
+      "github_summary": "GitHub profile missing or private.",
+      "strengths": [
+        "Strong AI/project depth with meaningful workflow or retrieval signals.",
+        "Solid Python and backend engineering evidence."
+      ],
+      "concerns": [
+        "GitHub signal is weak or unavailable."
+      ],
+      "rank": 2,
+      "rejection_reasons": []
+    },
+    {
+      "candidate_name": "Mei Chen",
+      "eligible": true,
+      "total_score": 86,
+      "score_breakdown": {
+        "ai_project_depth": {
+          "points": 36,
+          "max_points": 40,
+          "reasoning": "AI/LLM or agentic keywords found in resume text. | Strong AI system signals such as RAG, retrieval, orchestration, embeddings, or agent workflows were found. | Project descriptions suggest workflow logic and product-level orchestration beyond a prompt wrapper."
+        },
+        "python_backend_engineering": {
+          "points": 30,
+          "max_points": 30,
+          "reasoning": "Python is present across skills or projects. | Backend framework evidence supports Python engineering depth. | Data or asynchronous backend infrastructure is mentioned. | Workflow/state/evaluation-heavy backend logic indicates deeper software engineering beyond simple API usage."
+        },
+        "cloud_fullstack": {
+          "points": 15,
+          "max_points": 15,
+          "reasoning": "Cloud or deployment signals are present. | Frontend stack signals support the cloud/full-stack profile."
+        },
+        "github_activity": {
+          "points": 0,
+          "max_points": 10,
+          "reasoning": "GitHub profile missing or private."
+        },
+        "engineering_depth": {
+          "points": 5,
+          "max_points": 5,
+          "reasoning": "Testing evidence is present. | Architecture or workflow orchestration signals are present. | Operational and reliability signals appear in the resume. | The project combines agentic workflow signals with backend infrastructure and production-grade components."
+        }
+      },
+      "matched_skills": [
+        "agent",
+        "celery",
+        "django",
+        "docker",
+        "fastapi",
+        "kubernetes",
+        "langgraph",
+        "logging",
+        "openai",
+        "orchestration",
+        "postgresql",
+        "pytest",
+        "python",
+        "react",
+        "redis",
+        "retrieval"
+      ],
+      "project_summary": "Designed and shipped an autonomous research assistant with LangGraph for research synthesis. Created the API layer for a Python backend that served structured summaries to a React UI, with PostgreSQL Developed a synthetic benchmark suite for agent reasoning and tool use, comparing plan quality across model Platform Engineer, Qualia Labs \u2014 built Python microservices and orchestration tooling.",
+      "github_summary": "GitHub profile missing or private.",
+      "strengths": [
+        "Strong AI/project depth with meaningful workflow or retrieval signals.",
+        "Solid Python and backend engineering evidence."
+      ],
+      "concerns": [
+        "GitHub signal is weak or unavailable."
+      ],
+      "rank": 1,
+      "rejection_reasons": []
+    },
+    {
+      "candidate_name": "Omar Haddad",
+      "eligible": true,
+      "total_score": 80,
+      "score_breakdown": {
+        "ai_project_depth": {
+          "points": 36,
+          "max_points": 40,
+          "reasoning": "AI/LLM or agentic keywords found in resume text. | Strong AI system signals such as RAG, retrieval, orchestration, embeddings, or agent workflows were found. | Project descriptions suggest workflow logic and product-level orchestration beyond a prompt wrapper."
+        },
+        "python_backend_engineering": {
+          "points": 30,
+          "max_points": 30,
+          "reasoning": "Python is present across skills or projects. | Backend framework evidence supports Python engineering depth. | Data or asynchronous backend infrastructure is mentioned. | Workflow/state/evaluation-heavy backend logic indicates deeper software engineering beyond simple API usage."
+        },
+        "cloud_fullstack": {
+          "points": 10,
+          "max_points": 15,
+          "reasoning": "Cloud or deployment signals are present."
+        },
+        "github_activity": {
+          "points": 0,
+          "max_points": 10,
+          "reasoning": "GitHub profile missing or private."
+        },
+        "engineering_depth": {
+          "points": 4,
+          "max_points": 5,
+          "reasoning": "Architecture or workflow orchestration signals are present. | Operational and reliability signals appear in the resume. | The project combines agentic workflow signals with backend infrastructure and production-grade components."
+        }
+      },
+      "matched_skills": [
+        "cache",
+        "docker",
+        "embeddings",
+        "fastapi",
+        "gcp",
+        "langchain",
+        "postgresql",
+        "python",
+        "rag",
+        "redis",
+        "retrieval",
+        "terraform"
+      ],
+      "project_summary": "Built a retrieval engine for policy Q&A; that turned internal regulations into searchable embeddings and served Created a document ingestion workflow that normalized PDFs, chunked content, and inserted embeddings into vector I built an admin dashboard to monitor indexing health and query latency across multiple corpora. AI Engineer, GovernFlow \u2014 built compliance and retrieval workflows across public policy corpora. Software Engineer, Northstack \u2014 implemented backend systems for analytics and cus",
+      "github_summary": "GitHub profile missing or private.",
+      "strengths": [
+        "Strong AI/project depth with meaningful workflow or retrieval signals.",
+        "Solid Python and backend engineering evidence."
+      ],
+      "concerns": [
+        "GitHub signal is weak or unavailable."
+      ],
+      "rank": 4,
+      "rejection_reasons": []
+    },
+    {
+      "candidate_name": "Priya Nair",
+      "eligible": true,
+      "total_score": 80,
+      "score_breakdown": {
+        "ai_project_depth": {
+          "points": 36,
+          "max_points": 40,
+          "reasoning": "AI/LLM or agentic keywords found in resume text. | Strong AI system signals such as RAG, retrieval, orchestration, embeddings, or agent workflows were found. | Project descriptions suggest workflow logic and product-level orchestration beyond a prompt wrapper."
+        },
+        "python_backend_engineering": {
+          "points": 30,
+          "max_points": 30,
+          "reasoning": "Python is present across skills or projects. | Backend framework evidence supports Python engineering depth. | Data or asynchronous backend infrastructure is mentioned. | Workflow/state/evaluation-heavy backend logic indicates deeper software engineering beyond simple API usage."
+        },
+        "cloud_fullstack": {
+          "points": 10,
+          "max_points": 15,
+          "reasoning": "Cloud or deployment signals are present."
+        },
+        "github_activity": {
+          "points": 0,
+          "max_points": 10,
+          "reasoning": "GitHub profile missing or private."
+        },
+        "engineering_depth": {
+          "points": 4,
+          "max_points": 5,
+          "reasoning": "Architecture or workflow orchestration signals are present. | Operational and reliability signals appear in the resume. | The project combines agentic workflow signals with backend infrastructure and production-grade components."
+        }
+      },
+      "matched_skills": [
+        "architecture",
+        "cache",
+        "docker",
+        "fastapi",
+        "langchain",
+        "logging",
+        "openai",
+        "postgresql",
+        "python",
+        "rag",
+        "redis",
+        "retrieval"
+      ],
+      "project_summary": "Built a RAG chatbot for internal product documentation using LangChain, Chroma, and a FastAPI backend. Implemented an ingestion pipeline that normalized Markdown and PDF files, chunked them for retrieval, and retrained Machine Learning Engineer, EchoWorks \u2014 developed retrieval and search experiences for internal docs.",
+      "github_summary": "GitHub profile missing or private.",
+      "strengths": [
+        "Strong AI/project depth with meaningful workflow or retrieval signals.",
+        "Solid Python and backend engineering evidence."
+      ],
+      "concerns": [
+        "GitHub signal is weak or unavailable."
+      ],
+      "rank": 5,
+      "rejection_reasons": []
+    },
+    {
+      "candidate_name": "Lucas Bennett",
+      "eligible": true,
+      "total_score": 79,
+      "score_breakdown": {
+        "ai_project_depth": {
+          "points": 36,
+          "max_points": 40,
+          "reasoning": "AI/LLM or agentic keywords found in resume text. | Strong AI system signals such as RAG, retrieval, orchestration, embeddings, or agent workflows were found. | Project descriptions suggest workflow logic and product-level orchestration beyond a prompt wrapper."
+        },
+        "python_backend_engineering": {
+          "points": 30,
+          "max_points": 30,
+          "reasoning": "Python is present across skills or projects. | Backend framework evidence supports Python engineering depth. | Data or asynchronous backend infrastructure is mentioned. | Workflow/state/evaluation-heavy backend logic indicates deeper software engineering beyond simple API usage."
+        },
+        "cloud_fullstack": {
+          "points": 10,
+          "max_points": 15,
+          "reasoning": "Cloud or deployment signals are present."
+        },
+        "github_activity": {
+          "points": 0,
+          "max_points": 10,
+          "reasoning": "GitHub profile missing or private."
+        },
+        "engineering_depth": {
+          "points": 3,
+          "max_points": 5,
+          "reasoning": "Architecture or workflow orchestration signals are present. | The project combines agentic workflow signals with backend infrastructure and production-grade components."
+        }
+      },
+      "matched_skills": [
+        "azure",
+        "deployment",
+        "docker",
+        "fastapi",
+        "langchain",
+        "memory",
+        "openai",
+        "python",
+        "rag",
+        "retrieval",
+        "sqlalchemy",
+        "vector search"
+      ],
+      "project_summary": "Created a support chatbot for internal knowledge bases using LangChain and retrieval over hundreds of technical Built the backend in FastAPI with Azure deployment, SQLAlchemy models, and API endpoints for user sessions and AI Engineer, Signal Orbit \u2014 designed retrieval workflows and chatbot UX. Backend Engineer, TeleGrid \u2014 built Python services and API integrations.",
+      "github_summary": "GitHub profile missing or private.",
+      "strengths": [
+        "Strong AI/project depth with meaningful workflow or retrieval signals.",
+        "Solid Python and backend engineering evidence."
+      ],
+      "concerns": [
+        "GitHub signal is weak or unavailable."
+      ],
+      "rank": 7,
+      "rejection_reasons": []
+    },
+    {
+      "candidate_name": "Sofia Alvarez",
+      "eligible": true,
+      "total_score": 80,
+      "score_breakdown": {
+        "ai_project_depth": {
+          "points": 36,
+          "max_points": 40,
+          "reasoning": "AI/LLM or agentic keywords found in resume text. | Strong AI system signals such as RAG, retrieval, orchestration, embeddings, or agent workflows were found. | Project descriptions suggest workflow logic and product-level orchestration beyond a prompt wrapper."
+        },
+        "python_backend_engineering": {
+          "points": 30,
+          "max_points": 30,
+          "reasoning": "Python is present across skills or projects. | Backend framework evidence supports Python engineering depth. | Data or asynchronous backend infrastructure is mentioned. | Workflow/state/evaluation-heavy backend logic indicates deeper software engineering beyond simple API usage."
+        },
+        "cloud_fullstack": {
+          "points": 10,
+          "max_points": 15,
+          "reasoning": "Cloud or deployment signals are present."
+        },
+        "github_activity": {
+          "points": 0,
+          "max_points": 10,
+          "reasoning": "GitHub profile missing or private."
+        },
+        "engineering_depth": {
+          "points": 4,
+          "max_points": 5,
+          "reasoning": "Architecture or workflow orchestration signals are present. | Operational and reliability signals appear in the resume. | The project combines agentic workflow signals with backend infrastructure and production-grade components."
+        }
+      },
+      "matched_skills": [
+        "aws",
+        "cache",
+        "deployment",
+        "docker",
+        "evaluation",
+        "flask",
+        "langchain",
+        "openai",
+        "postgresql",
+        "python",
+        "rag",
+        "redis",
+        "retrieval"
+      ],
+      "project_summary": "Developed a customer service copilot using LangChain and vector retrieval over product documentation. Built a lightweight Flask API that logged conversations, stored metadata in PostgreSQL, and used Redis to cache Software Engineer, NovaStack \u2014 built AI assistant experiences and internal tooling.",
+      "github_summary": "GitHub profile missing or private.",
+      "strengths": [
+        "Strong AI/project depth with meaningful workflow or retrieval signals.",
+        "Solid Python and backend engineering evidence."
+      ],
+      "concerns": [
+        "GitHub signal is weak or unavailable."
+      ],
+      "rank": 6,
+      "rejection_reasons": []
+    },
+    {
+      "candidate_name": "Nikhil Sharma",
+      "eligible": true,
+      "total_score": 37,
+      "score_breakdown": {
+        "ai_project_depth": {
+          "points": 3,
+          "max_points": 40,
+          "reasoning": "AI/LLM or agentic keywords found in resume text. | Project descriptions suggest workflow logic and product-level orchestration beyond a prompt wrapper. | Project appears to be a thin wrapper around an LLM API call with no meaningful workflow, retrieval, or evaluation logic, reducing AI depth score."
+        },
+        "python_backend_engineering": {
+          "points": 30,
+          "max_points": 30,
+          "reasoning": "Python is present across skills or projects. | Backend framework evidence supports Python engineering depth. | Data or asynchronous backend infrastructure is mentioned. | Workflow/state/evaluation-heavy backend logic indicates deeper software engineering beyond simple API usage."
+        },
+        "cloud_fullstack": {
+          "points": 0,
+          "max_points": 15,
+          "reasoning": "No strong cloud/full-stack deployment evidence found."
+        },
+        "github_activity": {
+          "points": 0,
+          "max_points": 10,
+          "reasoning": "GitHub profile missing or private."
+        },
+        "engineering_depth": {
+          "points": 4,
+          "max_points": 5,
+          "reasoning": "Architecture or workflow orchestration signals are present. | Operational and reliability signals appear in the resume. | The project combines agentic workflow signals with backend infrastructure and production-grade components."
+        }
+      },
+      "matched_skills": [
+        "fastapi",
+        "flask",
+        "openai",
+        "orchestration",
+        "postgresql",
+        "python",
+        "redis",
+        "retrieval"
+      ],
+      "project_summary": "Built a chatbot using the OpenAI API to answer user questions about company policies and product FAQs. Created a small admin interface to track conversation logs and prompt usage, with basic session bookkeeping in Backend Engineer, SupportFlow \u2014 built internal APIs and service tooling. Full-stack Developer, Altitude Studio \u2014 developed dashboards and customer-facing features.",
+      "github_summary": "GitHub profile missing or private.",
+      "strengths": [
+        "Solid Python and backend engineering evidence."
+      ],
+      "concerns": [
+        "AI project depth is limited or mostly a thin API wrapper.",
+        "GitHub signal is weak or unavailable."
+      ],
+      "rank": 10,
+      "rejection_reasons": []
+    },
+    {
+      "candidate_name": "Julia Park",
+      "eligible": true,
+      "total_score": 38,
+      "score_breakdown": {
+        "ai_project_depth": {
+          "points": 8,
+          "max_points": 40,
+          "reasoning": "AI/LLM or agentic keywords found in resume text. | Project descriptions suggest workflow logic and product-level orchestration beyond a prompt wrapper. | Project appears tutorial-style or demo-only, reducing AI depth score."
+        },
+        "python_backend_engineering": {
+          "points": 27,
+          "max_points": 30,
+          "reasoning": "Python is present across skills or projects. | Backend framework evidence supports Python engineering depth. | Workflow/state/evaluation-heavy backend logic indicates deeper software engineering beyond simple API usage."
+        },
+        "cloud_fullstack": {
+          "points": 0,
+          "max_points": 15,
+          "reasoning": "No strong cloud/full-stack deployment evidence found."
+        },
+        "github_activity": {
+          "points": 0,
+          "max_points": 10,
+          "reasoning": "No GitHub username found in resume."
+        },
+        "engineering_depth": {
+          "points": 3,
+          "max_points": 5,
+          "reasoning": "Architecture or workflow orchestration signals are present. | The project combines agentic workflow signals with backend infrastructure and production-grade components."
+        }
+      },
+      "matched_skills": [
+        "evaluation",
+        "flask",
+        "langchain",
+        "llm",
+        "openai",
+        "python",
+        "retrieval"
+      ],
+      "project_summary": "Built a small chatbot with LangChain and the OpenAI API to answer basic questions from a product knowledge base. Created a toy project for learning prompt chaining and a lightweight web interface to submit questions, with minimal Independent developer \u2014 built learning prototypes and educational demos for AI projects.",
+      "github_summary": "No GitHub username found in resume.",
+      "strengths": [
+        "Solid Python and backend engineering evidence."
+      ],
+      "concerns": [
+        "AI project depth is limited or mostly a thin API wrapper.",
+        "GitHub signal is weak or unavailable."
+      ],
+      "rank": 9,
+      "rejection_reasons": []
+    },
+    {
+      "candidate_name": "Maya Ross",
+      "eligible": true,
+      "total_score": 67,
+      "score_breakdown": {
+        "ai_project_depth": {
+          "points": 36,
+          "max_points": 40,
+          "reasoning": "AI/LLM or agentic keywords found in resume text. | Strong AI system signals such as RAG, retrieval, orchestration, embeddings, or agent workflows were found. | Project descriptions suggest workflow logic and product-level orchestration beyond a prompt wrapper."
+        },
+        "python_backend_engineering": {
+          "points": 27,
+          "max_points": 30,
+          "reasoning": "Python is present across skills or projects. | Backend framework evidence supports Python engineering depth. | Workflow/state/evaluation-heavy backend logic indicates deeper software engineering beyond simple API usage."
+        },
+        "cloud_fullstack": {
+          "points": 0,
+          "max_points": 15,
+          "reasoning": "No strong cloud/full-stack deployment evidence found."
+        },
+        "github_activity": {
+          "points": 0,
+          "max_points": 10,
+          "reasoning": "No GitHub username found in resume."
+        },
+        "engineering_depth": {
+          "points": 4,
+          "max_points": 5,
+          "reasoning": "Architecture or workflow orchestration signals are present. | Operational and reliability signals appear in the resume. | The project combines agentic workflow signals with backend infrastructure and production-grade components."
+        }
+      },
+      "matched_skills": [
+        "agent",
+        "evaluation",
+        "fastapi",
+        "langchain",
+        "multi-agent",
+        "orchestration",
+        "python",
+        "rag",
+        "retrieval"
+      ],
+      "project_summary": "Created a prototype for a document search assistant using LangChain and a vector database to help employees query Built a simple dashboard to present documents and summaries, and tracked a few example questions to test retrieval Product Engineer, Kindred Labs \u2014 built prototypes for internal AI search tools.",
+      "github_summary": "No GitHub username found in resume.",
+      "strengths": [
+        "Strong AI/project depth with meaningful workflow or retrieval signals.",
+        "Solid Python and backend engineering evidence."
+      ],
+      "concerns": [
+        "GitHub signal is weak or unavailable."
+      ],
+      "rank": 8,
+      "rejection_reasons": []
+    },
+    {
+      "rank": null,
+      "candidate_name": "Ethan Brooks",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [
+        "aws",
+        "caching",
+        "celery",
+        "django",
+        "docker",
+        "fastapi",
+        "logging",
+        "monitoring",
+        "postgresql",
+        "pytest",
+        "python",
+        "redis",
+        "retry"
+      ],
+      "project_summary": "Developed a Python customer analytics platform with Django and FastAPI services for ingestion, aggregation, and The system handled event data from mobile clients, built reporting endpoints, and stored results in Implemented background jobs with Celery for periodic refreshes and notification workflows, including retry logic and Created internal APIs for reporting and operational decisions, using robust validation and structured logging for service Backend Engineer, Streamline Cloud \u2014 built data p",
+      "github_summary": "N/A",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "AI/agentic evidence missing"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_name": "Felix Nguyen",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [
+        "architecture",
+        "deployment",
+        "javascript",
+        "next.js",
+        "react"
+      ],
+      "project_summary": "Built a full-stack commerce platform with React and Next.js for storefront experiences, with a Spring Boot backend and Developed an internal admin dashboard with role-based access and analytics panels for sales and merchandising. Full-Stack Engineer, Vantage Commerce \u2014 built e-commerce systems and web experiences. Software Engineer, Nucleus Labs \u2014 built services for checkout and product management.",
+      "github_summary": "N/A",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "Python evidence missing",
+        "AI/agentic evidence missing"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_name": "Harper Singh",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [
+        "aws",
+        "docker",
+        "monitoring",
+        "observability",
+        "postgresql",
+        "react"
+      ],
+      "project_summary": "Built a Java-based microservices platform for shipping logistics and order processing. Developed a React frontend for tracking shipments and warehouse inventory, and integrated with internal APIs for Platform Engineer, RouteFlow \u2014 built enterprise systems for logistics and inventory monitoring.",
+      "github_summary": "N/A",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "AI/agentic evidence missing"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_name": "Chloe Martin",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [
+        "caching",
+        "deployment",
+        "docker",
+        "fastapi",
+        "gcp",
+        "postgresql",
+        "python",
+        "react",
+        "redis"
+      ],
+      "project_summary": "Built an internal operations portal with FastAPI and PostgreSQL that aggregated deployment health, customer Full-Stack Engineer, Northspring \u2014 built platform tooling for reliability and operations.",
+      "github_summary": "N/A",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "AI/agentic evidence missing"
+      ]
+    },
+    {
+      "rank": null,
+      "candidate_name": "Ibrahim Yusuf",
+      "eligible": false,
+      "total_score": 0,
+      "score_breakdown": {},
+      "matched_skills": [
+        "architecture",
+        "javascript",
+        "next.js",
+        "react",
+        "typescript"
+      ],
+      "project_summary": "Built a content platform with Next.js and React for editorial publishing, including a rich authoring dashboard and article Created a custom analytics dashboard for tracking engagement, article performance, and marketing funnels, using Frontend Engineer, Lumina Media \u2014 built editorial web experiences and dashboard tooling.",
+      "github_summary": "N/A",
+      "strengths": [],
+      "concerns": [],
+      "rejection_reasons": [
+        "Python evidence missing",
+        "AI/agentic evidence missing"
+      ]
+    }
+  ]
+}
